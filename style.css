@@ -44,8 +44,9 @@
     clear: both;
 }
 
+
 #logo{
-    background: url(images/kickboxing-logo.jpg) center;
+   
     float:right;
     height: 200px;
     width: 200px;
@@ -80,16 +81,13 @@ span{
     color: darkslateblue;
 }
 
-#newsfeed-table{
-    float: left;
-    height: 200px;
-    width: 200px;
+table{
+    height: 400px;
+    width: 300px;
     overflow: scroll;
-    padding: 5%;
-    margin: auto;
-    position: absolute;
-    clear: both;
-    border: 2px solid black;
+    border: 1px, solid, black;
+    margin: 5%;
+
 }
 
 #gallery{
