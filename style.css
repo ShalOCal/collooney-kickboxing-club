@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Unbounded/Montserrat:300);
+
+
+#main-image{
+    background-image: url(../collooney-kickboxing-club/images/kickboxing-main-image.jpg) alt="two kickboxers fighting" no-repeat center center;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#main-header{
+    font-family: unbounded sans-serif;
+    font-weight: 500;
+    padding-left: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#logo{
+    src: url(../collooney-kickboxing-club/images/kickboxing-logo.jpg) alt:"logo";
+    float:right
+    height:400px;
+    width:400px;
+}
