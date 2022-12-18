@@ -1,25 +1,98 @@
-@import url(https://fonts.googleapis.com/css?family=Unbounded/Montserrat:300);
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@500&display=swap');
 
 
 #main-image{
-    background-image: url(../collooney-kickboxing-club/images/kickboxing-main-image.jpg) alt="two kickboxers fighting" no-repeat center center;
     overflow: hidden;
-    height: 600px;
-    width: 100%;
+    height: 400px;
+    width: 1080px;
     position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    background-image: url(images/kickboxing-main-image.jpg);
+    clear: both;
+
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image-zoom{
+    from{
+        transform: scale(.9);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 #main-header{
-    font-family: unbounded sans-serif;
-    font-weight: 500;
-    padding-left: 10%;
-    margin-left: 10%;
+    font-family: "Unbounded", "cursive";
+    font-size: 200%;
+    padding-left: 0;
+    margin-left: 0px;
     margin-bottom: 10%;
+    margin-top: 0%;
+    clear: both;
+    position: absolute;
+    letter-spacing: 10px;
+    color: firebrick;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    clear: both;
 }
 
 #logo{
-    src: url(../collooney-kickboxing-club/images/kickboxing-logo.jpg) alt:"logo";
-    float:right
-    height:400px;
-    width:400px;
+    background: url(images/kickboxing-logo.jpg) center;
+    float:right;
+    height: 200px;
+    width: 200px;
+    size: 100%;
+    clear: both;
+    scale: 100%;
+    position: inherit;
+}
+
+
+#menu a{
+    text-align: center;
+    color: firebrick;
+    background-color: black;
+    float: right;
+    font-size: 150%;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    margin-top: 1%;
+    clear: right;
+    position: relative;
+
+}
+
+h2, p, table{
+    font-family: "Monserrat", "sans-serif";
+    color: darkslategrey;
+}
+
+span{
+    color: darkslateblue;
+}
+
+#newsfeed-table{
+    float: left;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+    padding: 5%;
+    margin: auto;
+    position: absolute;
+    clear: both;
+    border: 2px solid black;
+}
+
+#gallery{
+    float: right;
+    clear: both;
 }
