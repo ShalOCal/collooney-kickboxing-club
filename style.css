@@ -1,16 +1,21 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@500&display=swap');
 
 
+
 #main-image{
     overflow: hidden;
-    height: 400px;
-    width: 1080px;
+    height: 500px;
+    width: 100%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 12%;
-    background-image: url(images/kickboxing-main-image.jpg);
+    margin-left: 1%;
+    background-image: url(images/kickboxing-main-image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     clear: both;
+ 
+    
 
     animation-name: image-zoom;
     animation-duration: 5s;
@@ -25,6 +30,7 @@
         transform: scale(1);
     }
 }
+
 
 #main-header{
     font-family: "Unbounded", "cursive";
@@ -46,14 +52,14 @@
 
 
 #logo{
-   
-    float:right;
+    
+    float:left;
     height: 200px;
     width: 200px;
     size: 100%;
     clear: both;
     scale: 100%;
-    position: inherit;
+    position: static;
 }
 
 
@@ -81,16 +87,31 @@ span{
     color: darkslateblue;
 }
 
-table{
+textarea{
     height: 400px;
-    width: 300px;
+    width: 400px;
     overflow: scroll;
     border: 1px, solid, black;
     margin: 5%;
-
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
 }
 
 #gallery{
     float: right;
     clear: both;
+}
+
+
+.footer{
+    height: 250px;
+    margin-top: 500px;
+    background-image: url("images/kickboxinglogosmall.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+    font-size: 50px;
+    font-display: center;
+    list-style: none;
+    color:yellow;
 }
