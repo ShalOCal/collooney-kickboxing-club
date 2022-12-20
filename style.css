@@ -78,9 +78,17 @@
 
 }
 
-h2, p{
+h2{
     font-family: "Monserrat", "sans-serif";
     color: darkslategrey;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-family: "Monserrat", "sans-serif";
+    color: darkslategrey;
+    text-align: left;
 }
 
 span{
@@ -88,7 +96,6 @@ span{
 }
 
 #newsfeed{
-    text-transform: uppercase;
     height: 400px;
     width: 800px;
     overflow: scroll;
@@ -99,17 +106,12 @@ span{
     font-size: 15px;
 }
 
-#gallery{
-    text-transform: uppercase;
-    height: 400px;
-    width: 800px;
-    overflow: scroll;
-    border: 1px, solid, black;
-    margin: 5%;
-    flex-direction: row;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-     
+
+
+#gallery > img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .footer{
