@@ -78,7 +78,7 @@
 
 }
 
-h2, p, table{
+h2, p{
     font-family: "Monserrat", "sans-serif";
     color: darkslategrey;
 }
@@ -87,31 +87,59 @@ span{
     color: darkslateblue;
 }
 
-textarea{
+#newsfeed{
+    text-transform: uppercase;
     height: 400px;
-    width: 400px;
+    width: 800px;
     overflow: scroll;
     border: 1px, solid, black;
     margin: 5%;
-    float: left;
+    flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
 }
 
 #gallery{
-    float: right;
-    clear: both;
+    text-transform: uppercase;
+    height: 400px;
+    width: 800px;
+    overflow: scroll;
+    border: 1px, solid, black;
+    margin: 5%;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+     
 }
-
 
 .footer{
     height: 250px;
-    margin-top: 500px;
+    margin-top: 10px;
     background-image: url("images/kickboxinglogosmall.jpg");
     background-position: center center;
     background-repeat: repeat;
     font-size: 50px;
     font-display: center;
     list-style: none;
-    color:yellow;
 }
+
+i{
+    color: firebrick;
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.socials li{
+
+    height:250px;
+    width: 100%;
+    display: inline;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+    margin-left: 20%;
+    font: size 100%;
+}
+
