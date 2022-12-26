@@ -232,7 +232,7 @@ i{
 }
 
 
-@media screen and (max-width : 8000px) {
+@media screen and (max-width : 800px) {
     #main-header{
     font-size: 75%;
     width: 80%;
@@ -245,18 +245,10 @@ i{
     #name{
         margin-top: 0;
     }
-    #join-us{
-        text-align: center;
-    }
     
-    #name #email #number{
-        height: 500px;
-        width: 500px;
-    }
-
     .join-label{
         margin: 0;
-        text-align: right;
+        text-align: left;
         font-size: 75%;
     }
 
