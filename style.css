@@ -92,7 +92,7 @@ p{
 }
 
 span{
-    color: darkslateblue;
+    color: firebrick;
 }
 
 #newsfeed{
@@ -100,7 +100,7 @@ span{
     width: 800px;
     overflow: scroll;
     border: 1px, solid, black;
-    margin: 5%;
+
     flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
@@ -149,11 +149,11 @@ i{
     height: 400px;
     width: 100%;
     background-color: black;
-    text-align: left;
-    margin-top: 10%;
+
+
     margin-bottom: 5%;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 20px;
+    
     font-size: 50px;
     color:firebrick;
 
@@ -161,6 +161,7 @@ i{
 
 #name{
     margin-top: 50px;
+    
 }
 
 #join-button{
@@ -170,35 +171,49 @@ i{
     color: black;
     font-weight: bold;
     font-size: 20px;
-    padding: auto;
-    display: inline;
-    position:inherit;
+
 }
 
 #name, #email, #number{
+
     height: 25px;
     width: 500px;
-    margin-left: 10px;
-    border:3px solid firebrick;
-    padding: auto;
 
+    border:3px solid firebrick;
 }
 
+.join-label{
+    text-align: center;
 
+}
 
 #join-button:hover{
     background-color: black;
     color:firebrick;
 }
 
-.join-label{
-    margin-left: 20px;
-    text-align: left;
+#reset:hover{
+    background-color: black;
+    color:firebrick;
 }
+
+
+#reset{
+    height: 50px;
+    width: 150px;
+    background-color:firebrick;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    position:inherit;
+}
+
 
 #thanks{
     background-color: black;
     color: firebrick;
     font-size: 100px;
     font-weight: bold;
+    text-align: center;
 }
