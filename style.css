@@ -82,7 +82,7 @@ h2{
     font-family: "Monserrat", "sans-serif";
     color: darkslategrey;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
 p{
@@ -96,15 +96,23 @@ span{
 }
 
 #newsfeed{
+    float: left;
     height: 400px;
-    width: 80%;
+    width: 45%;
     overflow: scroll;
     flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    margin-bottom: 50px;
 }
 
-
+#video{
+    float: right;
+    width: 45%;
+    height: 400px;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
 
 #gallery > img{
     display: flex;
@@ -235,10 +243,17 @@ i{
 @media screen and (max-width : 800px) {
     #main-header{
     font-size: 75%;
-    width: 80%;
     font-weight: bold;
     text-align: left;
+    width: 50%;
     }
+
+    #name, #email, #number{
+        width:50%;
+        text-align: left;
+        margin-left: 0;
+    }
+
     #menu{
         background-color: black;
     }
