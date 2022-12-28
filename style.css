@@ -74,6 +74,7 @@
      color: darkslategrey;
      text-transform: uppercase;
      text-align: left;
+     margin-left: 30px;
  }
 
  p {
@@ -86,10 +87,14 @@
      color: firebrick;
  }
 
+section{
+    display: flex;
+    margin-left: 30px;
+}
 
- #newsfeed {
- 
-     display: inline-block;
+
+#newsfeed {
+    
      height: 400px;
      width: 40%;
      overflow: scroll;
@@ -97,14 +102,13 @@
      font-size: 15px;
      margin-top: 20px;
      margin-bottom: 50px;
-     margin-right: 10px;
  }
 
  #video {
-     display: inline-block;
-     position: relative;
+
      height: 400px;
-     margin-left: 50px;
+     width: 40%;
+     margin-left: 100px;
      margin-bottom: 50px;
      margin-right: 10px;
  }
@@ -123,7 +127,7 @@
      background-position: center center;
      background-repeat: repeat;
      font-size: 50px;
-     font-display: center;
+   
      list-style: none;
  }
 
@@ -144,7 +148,7 @@
      margin-top: 50px;
 
      margin-left: 20%;
-     font: size 60%;
+     font: 60%;
  }
 
  #join-us {
@@ -226,8 +230,12 @@
          font-size: 80%;
          text-align: left;
      }
+    
+     #main-image{
+        size: 50%;
+     }
 
-     #name {
+     #name{
          margin-top: 0;
      }
 
@@ -239,15 +247,18 @@
 
  @media screen and (max-width : 800px) {
      #main-header {
+        
          font-size: 75%;
          font-weight: bold;
          text-align: left;
          width: 50%;
      }
 
-     #name,
-     #email,
-     #number {
+     #main-image{
+        size-adjust: 50%;
+     }
+
+     #name #email #number {
          width: 50%;
          text-align: left;
          margin-left: 0;
