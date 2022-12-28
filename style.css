@@ -89,29 +89,26 @@
 
  #newsfeed {
  
-     display: inline-flexbox;
+     display: inline-block;
      height: 400px;
      width: 40%;
      overflow: scroll;
-
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 15px;
+     margin-top: 20px;
      margin-bottom: 50px;
-     margin-left: 20px;
      margin-right: 10px;
  }
 
  #video {
+     display: inline-block;
      position: relative;
-     width: 50px;
      height: 400px;
+     margin-left: 50px;
      margin-bottom: 50px;
      margin-right: 10px;
  }
 
- #gallery-header{
-
- }
 
  #gallery>img {
      display: flex;
