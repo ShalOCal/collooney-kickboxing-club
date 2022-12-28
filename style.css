@@ -232,7 +232,8 @@ section{
      }
     
      #main-image{
-        size: 50%;
+        background-image: url(images/winners.jpg);
+        height: 800px;
      }
 
      #name{
@@ -255,7 +256,8 @@ section{
      }
 
      #main-image{
-        size-adjust: 50%;
+        background-image: url(images/winners.jpg);
+        height: 800px;
      }
 
      #name #email #number {
