@@ -229,11 +229,11 @@ section{
      #main-header {
          font-size: 80%;
          text-align: left;
-         background-color: black;
      }
     
      #main-image{
         background-image: url(images/girls-with-trophies.jpg);
+        background-color: black;
         height: 800px;
      }
 
@@ -244,8 +244,15 @@ section{
      #name #email #number {
          display: inline-block;
      }
-     #newsfeed #video{
-        width: 100%;
+    
+     #newsfeed{
+        width: 400px;
+        flex-direction: initial;
+     }
+
+     #video{
+        width: 400px;
+        flex-direction: inherit;
      }
 
 
@@ -263,6 +270,7 @@ section{
 
      #main-image{
         background-image: url(images/girls-with-trophies.jpg);
+        background-color: black;
         height: 800px;
      }
 
@@ -280,9 +288,15 @@ section{
          margin-top: 0;
      }
 
-     #newsfeed #video{
+     #newsfeed{
         width: 100%;
+        flex-direction: initial;      
      }
+
+     #video{
+        width: 100%;
+        flex-direction: inherit;
+        }
 
      .join-label {
          margin: 0;
