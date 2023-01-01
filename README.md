@@ -15,5 +15,6 @@ the join us page contains a form requiring the persons name, email and phone num
 The about us page contains information about the club and it's history.
 
 
+![image](https://user-images.githubusercontent.com/118110016/210169391-4201f0aa-2750-4e15-bab8-d05612f9c621.png)
 
 
