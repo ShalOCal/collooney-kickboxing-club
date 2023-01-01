@@ -247,12 +247,12 @@ section{
     
      #newsfeed{
         width: 400px;
-        flex-direction: initial;
+        margin: 0 auto;
      }
 
      #video{
         width: 400px;
-        flex-direction: inherit;
+        margin: 0 auto;
      }
 
 
@@ -290,12 +290,12 @@ section{
 
      #newsfeed{
         width: 100%;
-        flex-direction: initial;      
+        margin: 0 auto;   
      }
 
      #video{
         width: 100%;
-        flex-direction: inherit;
+        margin: 0 auto;
         }
 
      .join-label {
