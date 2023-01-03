@@ -87,14 +87,14 @@
      color: firebrick;
  }
 
-section{
-    display: flex;
-    margin-left: 30px;
-}
+ section {
+     display: flex;
+     margin-left: 30px;
+ }
 
 
-#newsfeed {
-    
+ #newsfeed {
+
      height: 400px;
      width: 40%;
      overflow: scroll;
@@ -127,7 +127,7 @@ section{
      background-position: center center;
      background-repeat: repeat;
      font-size: 50px;
-   
+
      list-style: none;
  }
 
@@ -230,29 +230,29 @@ section{
          font-size: 80%;
          text-align: left;
      }
-    
-     #main-image{
-        background-image: url(images/girls-with-trophies.jpg);
-        background-color: black;
-        height: 800px;
+
+     #main-image {
+         background-image: url(images/girls-with-trophies.jpg);
+         background-color: black;
+         height: 800px;
      }
 
-     #name{
+     #name {
          margin-top: 0;
      }
 
      #name #email #number {
          display: inline-block;
      }
-    
-     #newsfeed{
-        width: 400px;
-        margin: 0 auto;
+
+     #newsfeed {
+         width: 400px;
+         margin: 0 auto;
      }
 
-     #video{
-        width: 400px;
-        margin: 0 auto;
+     #video {
+         width: 400px;
+         margin: 0 auto;
      }
 
 
@@ -261,17 +261,17 @@ section{
 
  @media screen and (max-width : 800px) {
      #main-header {
-        
+
          font-size: 75%;
          font-weight: bold;
          text-align: left;
          width: 50%;
      }
 
-     #main-image{
-        background-image: url(images/girls-with-trophies.jpg);
-        background-color: black;
-        height: 800px;
+     #main-image {
+         background-image: url(images/girls-with-trophies.jpg);
+         background-color: black;
+         height: 800px;
      }
 
      #name #email #number {
@@ -288,15 +288,15 @@ section{
          margin-top: 0;
      }
 
-     #newsfeed{
-        width: 100%;
-        margin: 0 auto;   
+     #newsfeed {
+         width: 100%;
+         margin: 0 auto;
      }
 
-     #video{
-        width: 100%;
-        margin: 0 auto;
-        }
+     #video {
+         width: 100%;
+         margin: 0 auto;
+     }
 
      .join-label {
          margin: 0;
@@ -304,8 +304,8 @@ section{
          font-size: 75%;
      }
 
-     #join-us{
-        height: 600px;
+     #join-us {
+         height: 600px;
      }
 
      i {
