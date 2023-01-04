@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@500&display=swap');
 
 
-
+/* Main imge styling */
  #main-image {
      overflow: hidden;
      height: 500px;
@@ -15,7 +15,7 @@
      background-repeat: no-repeat;
      clear: both;
 
-
+    /* main image animation function code */
 
      animation-name: image-zoom;
      animation-duration: 5s;
@@ -32,7 +32,7 @@
      }
  }
 
-
+/* main header styling */
  #main-header {
      font-family: "Unbounded", "cursive";
      font-size: 200%;
@@ -53,7 +53,7 @@
 
 
 
-
+/* navigation menu styling */
  #menu a {
      text-align: center;
      color: firebrick;
@@ -68,7 +68,8 @@
      position: relative;
 
  }
-
+ 
+ /* h2, p and span styling to keep similar structures on all pages*/
  h2 {
      font-family: "Monserrat", "sans-serif";
      color: darkslategrey;
@@ -92,7 +93,7 @@
      margin-left: 30px;
  }
 
-
+/* newsfeed styling */
  #newsfeed {
 
      height: 400px;
@@ -104,6 +105,7 @@
      margin-bottom: 50px;
  }
 
+ /* video styling to fit beside newsfeed*/
  #video {
 
      height: 400px;
@@ -113,13 +115,15 @@
      margin-right: 10px;
  }
 
-
+/* gallery styling to keep pictures inline and even*/
  #gallery>img {
      display: flex;
      justify-content: center;
      width: 100%;
  }
 
+ /* footer styling for logo and socials to repeat the logo as a band across the bottom of the page 
+    and for the socials to stand out in the club colours*/
  .footer {
      height: 250px;
      margin-top: 10px;
@@ -131,6 +135,7 @@
      list-style: none;
  }
 
+ 
  i {
      color: firebrick;
      font-size: 75px;
@@ -151,6 +156,8 @@
      font: 60%;
  }
 
+
+ /*join us form styling*/
  #join-us {
      height: 400px;
      width: 100%;
@@ -193,10 +200,14 @@
 
  }
 
+/*styling for the reset and join buttons to change colour when hovered over*/
+
  #join-button:hover {
      background-color: black;
      color: firebrick;
  }
+
+
 
  #reset:hover {
      background-color: black;
@@ -215,7 +226,7 @@
      position: inherit;
  }
 
-
+/* styling for the thank you page to align with the club colours*/
  #thanks {
      background-color: black;
      color: firebrick;
@@ -224,7 +235,7 @@
      text-align: center;
  }
 
-
+/* styling for smaller screens eg tablet, this includes a change of main image to better fit within the smaller frame*/
  @media screen and (max-width : 1000px) {
      #main-header {
          font-size: 80%;
@@ -258,7 +269,7 @@
 
  }
 
-
+/* styling for smaller screens eg mobile, this includes a change of main image to better fit within the smaller frame*/
  @media screen and (max-width : 800px) {
      #main-header {
 
