@@ -46,7 +46,7 @@ Another idea would be an online booking system for classes where interested peop
 In this project I used Git, Github, Google search.
 Languages used were HTML and CSS
 
-## Testing##
+## Testing ##
 
 I tested that the page works on both Google and Chrome browsers.
 I tested responsiveness, look and function using devtools.
@@ -54,42 +54,42 @@ I have confirmed that the navigation buttons are easily readable.
 I have confirmed that the join us form is functional, the button will not allow you to move on unless you fill the required fields and those fields will not accept information in an incorrect format, The clear form button works and clears the form.
 
 
-## Bugs##
+## Bugs ##
 
 When I deplayed my project I found that the social links did not work, I fixed this by deleting and replacing the links
 In Firefox and in chrome on laptop the newsfeed box is splitting in 2 with the content only using approx 30% of the container, I have been unable to correct this.
 On mobile I have been unable to get the video to move below the newsfeed box in order to give each more space. 
 
-## Validator Testing##
+## Validator Testing ##
 
-### HTML###
+### HTML ###
 
 ![HTML checker](https://user-images.githubusercontent.com/118110016/211222486-4bf4235b-4cb9-4afa-bdf6-6de2c01d09e3.png)
 
-### CSS###
+### CSS ###
 ![CSS checker](https://user-images.githubusercontent.com/118110016/210282405-3fa9b34c-ad3f-425e-8c05-66855b26bf29.png)
 
-### Accessibility###
+### Accessibility ###
 
 ![lighthouse checker](https://user-images.githubusercontent.com/118110016/211222491-8d4b1c79-4e86-4ee5-857d-42145b5f042d.png)
 
-## Deployment##
+## Deployment ##
 
 The site was deployed to GitHub pages. The steps to deploy are:
 In the GitHub repository, go to settings tab, 
 From the source section drop-down menu select the master branch
 Once the master branch has been selected, the page provides the link to the website.
 
-## Credits##
+## Credits ##
 content
 I used inspiration from the Love Running project for some of the code in this project
 I used the gitpod-full-template as a base
 I also referred to geeksforgeeks.org when I ran into difficulty in parts
 
-## Media##
+## Media ##
 All images and logos have been taken from the Collooney Kickboxing Club facebook page.
 
-## Acknowledgements##
+## Acknowledgements ##
 
 Jonny Davison our Cohort Lead was a huge help to me on this project when I got stuck.
 Also Jason on the tutoring team helped me out when I was unable to push my code to GitHub.
