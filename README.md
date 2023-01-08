@@ -1,3 +1,7 @@
+#Collooney Kickboxing Club #
+
+https://shalocal.github.io/collooney-kickboxing-club/
+
 Collooney Kickboxing Club site is a site for people interested in kickboxing in and around the Collooney Co Sligo area. It caters to kids and adults alike and is a great source of exercise, fitness, self defence, fun and lasting friendships. It will be useful to parents interested in getting their kids into the sport as well as adults who would like to participate in the sport.
 
 
